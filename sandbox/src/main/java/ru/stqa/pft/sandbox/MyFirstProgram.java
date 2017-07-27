@@ -7,8 +7,9 @@ public class MyFirstProgram {
         hello("user");
         hello("Vladimir");
 
-        Point p1 = new Point(4, -4);
-        Point p2 = new Point(5, -5);
+        Point p1 = new Point(3, 4);
+        Point p2 = new Point(0, 0);
+
 
 
         System.out.println("Расстояние на координатной оси между точками c координатами " + "(" + p1.x + ", "+ p1.y + ")" + " и " + "(" + p2.x + ", " + p2.y + ")" + " = " + p2.distance(p1));
