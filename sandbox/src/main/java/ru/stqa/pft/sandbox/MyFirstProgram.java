@@ -7,6 +7,14 @@ public class MyFirstProgram {
         hello("user");
         hello("Vladimir");
 
+        Point p1 = new Point(4, -4);
+        Point p2 = new Point(5, -5);
+
+
+        System.out.println("Расстояние на координатной оси между точками c координатами " + "(" + p1.x + ", "+ p1.y + ")" + " и " + "(" + p2.x + ", " + p2.y + ")" + " = " + p2.distance(p1));
+
+
+
         Square s = new Square(5);
         s.l = 5;
         System.out.println("Площадь квадрата со стороной " + s.l + " = " + s.area());
